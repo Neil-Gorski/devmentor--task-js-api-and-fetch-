@@ -1,4 +1,92 @@
 {
-    "excursions": [],
-    "orders": []
+  "excursions": [
+    {
+      "id": "2",
+      "title": "Krakow",
+      "description": "Wędrówka po rynku.",
+      "price_adult": 50,
+      "price_child": 20
+    },
+    {
+      "id": "mduqkr6i",
+      "title": "zürich",
+      "description": "Rundfahrt mit dem schiff auf dem Zürichersee",
+      "price_adult": "50",
+      "price_child": "20"
+    },
+    {
+      "id": "mduqmbab",
+      "title": "Berlin",
+      "description": "Clubbing in der Underground scene",
+      "price_adult": "500",
+      "price_child": "0"
+    },
+    {
+      "id": "mduqpoda",
+      "title": "Mexico",
+      "description": "Atzteken tempel",
+      "price_adult": "400",
+      "price_child": "300"
+    },
+    {
+      "id": "mduqr2gj",
+      "title": "Bratislava",
+      "description": "altstadt",
+      "price_adult": "100",
+      "price_child": "50"
+    }
+  ],
+  "orders": [
+    {
+      "id": "mduqjiwz",
+      "title": "tarnow",
+      "description": "mala historia",
+      "price_adult": "50",
+      "price_child": "20"
+    },
+    {
+      "id": "mdur68f4",
+      "user": {
+        "name": "Neil Gorski",
+        "email": "neil.go90@gmail.com"
+      },
+      "totalPrice": 300,
+      "subOrders": [
+        {
+          "id": "mdur61rn",
+          "excursionId": "mduqr2gj",
+          "adults": 3,
+          "children": 0
+        }
+      ]
+    },
+    {
+      "id": "mdur7ab0",
+      "user": {
+        "name": "Neil Gorski",
+        "email": "neil.gorski@hotmail.ch"
+      },
+      "totalPrice": 9740,
+      "subOrders": [
+        {
+          "id": "mdur6zl6",
+          "excursionId": "2",
+          "adults": 34,
+          "children": 2
+        },
+        {
+          "id": "mdur71os",
+          "excursionId": "mduqugqf",
+          "adults": 43,
+          "children": 5
+        },
+        {
+          "id": "mdur74rd",
+          "excursionId": "mduqkr6i",
+          "adults": 22,
+          "children": 5
+        }
+      ]
+    }
+  ]
 }
